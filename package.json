@@ -1,0 +1,32 @@
+{
+  "name": "atquecorporis",
+  "version": "1.0.0",
+  "author": "ReinholdMacejkovic",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "l2geth",
+      "integration-tests",
+      "specs"
+    ],
+    "nohoist": [
+      "examples/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "patch-package": "^6.4.7"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarrieMorar/atquecorporis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarrieMorar/atquecorporis.git/issues"
+  },
+  "homepage": "https://github.com/CarrieMorar/atquecorporis.git"
+}
